@@ -26,7 +26,4 @@ Console-based library system for adding and displaying books.
 
 ---
 
-## 🚀 How to Run
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/<YourUsername>/Java-Projects.git
+
