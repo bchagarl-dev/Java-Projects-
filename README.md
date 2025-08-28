@@ -1,29 +1,31 @@
-# 🖥️ Java Projects
+# Bhavyasri Portfolio (React + Vite + Tailwind) — Netlify Ready
 
-This repository contains a collection of basic Java projects that demonstrate core programming concepts such as OOP, file handling, data structures, and simple simulations.  
+Multi-page portfolio with React Router (Home, About, Experience, Projects, Contact). Tailwind for styling. Netlify config included.
 
----
+## Quick Start
+```bash
+npm i
+npm run dev
+```
+Open http://localhost:5173
 
-## 📂 Projects Included
+## Build
+```bash
+npm run build
+```
+`dist/` is created for deployment.
 
-### 1. [CalculatorApp](./CalculatorApp)
-A simple calculator demonstrating object-oriented programming principles (addition, subtraction, multiplication, division).  
+## Deploy to Netlify
+1. Push this folder to a GitHub repo.
+2. In Netlify: **Add new site → Import from Git**.
+3. Select the repo.
+4. Build command: `npm run build`
+5. Publish directory: `dist`
+6. Deploy.
 
-### 2. [StudentManagementSystem](./StudentManagementSystem)
-Console-based system for managing students using CRUD operations with ArrayLists.  
+Netlify Forms is preconfigured on the Contact page. View submissions in Netlify dashboard (Forms).
 
-### 3. [FileHandlingDemo](./FileHandlingDemo)
-Demonstrates reading and writing files in Java using `FileWriter` and `BufferedReader`.  
-
-### 4. [BankingSystem](./BankingSystem)
-A basic banking application allowing deposits, withdrawals, and account balance checks.  
-
-### 5. [SortingAlgorithms](./SortingAlgorithms)
-Implements bubble sort with an example; can be extended to other sorting techniques.  
-
-### 6. [LibraryManagement](./LibraryManagement)
-Console-based library system for adding and displaying books.  
-
----
-
-
+## Customize
+- Edit personal info in `src/pages/*` and `src/components/Navbar.jsx`.
+- Replace `/public/resume.pdf` with your real resume file.
+- Update links in Projects page.
